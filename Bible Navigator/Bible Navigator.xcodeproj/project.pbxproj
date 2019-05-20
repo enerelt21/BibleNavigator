@@ -16,6 +16,8 @@
 		53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDFD22935D3C00E5FBF0 /* main.m */; };
 		53C9FE0822935D3D00E5FBF0 /* Bible_NavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */; };
 		53C9FE1322935D3D00E5FBF0 /* Bible_NavigatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */; };
+		53C9FE252293693A00E5FBF0 /* BibleJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 53C9FE242293693A00E5FBF0 /* BibleJson.json */; };
+		53C9FE3022936DCA00E5FBF0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		53C9FE0E22935D3D00E5FBF0 /* Bible NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_NavigatorUITests.m; sourceTree = "<group>"; };
 		53C9FE1422935D3D00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C9FE242293693A00E5FBF0 /* BibleJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BibleJson.json; path = ../../../../Downloads/BibleJson.json; sourceTree = "<group>"; };
+		53C9FE2E22936DCA00E5FBF0 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +116,13 @@
 				53C9FDF122935D3C00E5FBF0 /* DetailViewController.h */,
 				53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */,
 				53C9FDF422935D3C00E5FBF0 /* Main.storyboard */,
+				53C9FE242293693A00E5FBF0 /* BibleJson.json */,
 				53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */,
 				53C9FDF922935D3C00E5FBF0 /* LaunchScreen.storyboard */,
 				53C9FDFC22935D3C00E5FBF0 /* Info.plist */,
 				53C9FDFD22935D3C00E5FBF0 /* main.m */,
+				53C9FE2E22936DCA00E5FBF0 /* TableViewCell.h */,
+				53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */,
 			);
 			path = "Bible Navigator";
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 			files = (
 				53C9FDFB22935D3C00E5FBF0 /* LaunchScreen.storyboard in Resources */,
 				53C9FDF822935D3C00E5FBF0 /* Assets.xcassets in Resources */,
+				53C9FE252293693A00E5FBF0 /* BibleJson.json in Resources */,
 				53C9FDF622935D3C00E5FBF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 				53C9FDF022935D3C00E5FBF0 /* MasterViewController.m in Sources */,
 				53C9FDED22935D3C00E5FBF0 /* AppDelegate.m in Sources */,
 				53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */,
+				53C9FE3022936DCA00E5FBF0 /* TableViewCell.m in Sources */,
 				53C9FDF322935D3C00E5FBF0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,13 +452,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8VMB73627;
+				DEVELOPMENT_TEAM = G99PQA7ADH;
 				INFOPLIST_FILE = "Bible Navigator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-Navigator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OliveTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,13 +469,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8VMB73627;
+				DEVELOPMENT_TEAM = G99PQA7ADH;
 				INFOPLIST_FILE = "Bible Navigator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-Navigator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OliveTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
