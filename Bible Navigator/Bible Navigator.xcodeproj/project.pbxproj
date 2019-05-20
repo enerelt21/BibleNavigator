@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C9FDED22935D3C00E5FBF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */; };
+		53C9FDF022935D3C00E5FBF0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDEF22935D3C00E5FBF0 /* MasterViewController.m */; };
+		53C9FDF322935D3C00E5FBF0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */; };
+		53C9FDF622935D3C00E5FBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C9FDF422935D3C00E5FBF0 /* Main.storyboard */; };
+		53C9FDF822935D3C00E5FBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */; };
+		53C9FDFB22935D3C00E5FBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C9FDF922935D3C00E5FBF0 /* LaunchScreen.storyboard */; };
+		53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDFD22935D3C00E5FBF0 /* main.m */; };
+		53C9FE0822935D3D00E5FBF0 /* Bible_NavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */; };
+		53C9FE1322935D3D00E5FBF0 /* Bible_NavigatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C9FE0422935D3D00E5FBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C9FDE022935D3C00E5FBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C9FDE722935D3C00E5FBF0;
+			remoteInfo = "Bible Navigator";
+		};
+		53C9FE0F22935D3D00E5FBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C9FDE022935D3C00E5FBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C9FDE722935D3C00E5FBF0;
+			remoteInfo = "Bible Navigator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53C9FDE822935D3C00E5FBF0 /* Bible Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Navigator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C9FDEB22935D3C00E5FBF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53C9FDEE22935D3C00E5FBF0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		53C9FDEF22935D3C00E5FBF0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		53C9FDF122935D3C00E5FBF0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		53C9FDF522935D3C00E5FBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C9FDFA22935D3C00E5FBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53C9FDFC22935D3C00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C9FDFD22935D3C00E5FBF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C9FE0322935D3C00E5FBF0 /* Bible NavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible NavigatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_NavigatorTests.m; sourceTree = "<group>"; };
+		53C9FE0922935D3D00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C9FE0E22935D3D00E5FBF0 /* Bible NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_NavigatorUITests.m; sourceTree = "<group>"; };
+		53C9FE1422935D3D00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C9FDE522935D3C00E5FBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FE0022935D3C00E5FBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FE0B22935D3D00E5FBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C9FDDF22935D3C00E5FBF0 = {
+			isa = PBXGroup;
+			children = (
+				53C9FDEA22935D3C00E5FBF0 /* Bible Navigator */,
+				53C9FE0622935D3D00E5FBF0 /* Bible NavigatorTests */,
+				53C9FE1122935D3D00E5FBF0 /* Bible NavigatorUITests */,
+				53C9FDE922935D3C00E5FBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C9FDE922935D3C00E5FBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C9FDE822935D3C00E5FBF0 /* Bible Navigator.app */,
+				53C9FE0322935D3C00E5FBF0 /* Bible NavigatorTests.xctest */,
+				53C9FE0E22935D3D00E5FBF0 /* Bible NavigatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C9FDEA22935D3C00E5FBF0 /* Bible Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				53C9FDEB22935D3C00E5FBF0 /* AppDelegate.h */,
+				53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */,
+				53C9FDEE22935D3C00E5FBF0 /* MasterViewController.h */,
+				53C9FDEF22935D3C00E5FBF0 /* MasterViewController.m */,
+				53C9FDF122935D3C00E5FBF0 /* DetailViewController.h */,
+				53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */,
+				53C9FDF422935D3C00E5FBF0 /* Main.storyboard */,
+				53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */,
+				53C9FDF922935D3C00E5FBF0 /* LaunchScreen.storyboard */,
+				53C9FDFC22935D3C00E5FBF0 /* Info.plist */,
+				53C9FDFD22935D3C00E5FBF0 /* main.m */,
+			);
+			path = "Bible Navigator";
+			sourceTree = "<group>";
+		};
+		53C9FE0622935D3D00E5FBF0 /* Bible NavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */,
+				53C9FE0922935D3D00E5FBF0 /* Info.plist */,
+			);
+			path = "Bible NavigatorTests";
+			sourceTree = "<group>";
+		};
+		53C9FE1122935D3D00E5FBF0 /* Bible NavigatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */,
+				53C9FE1422935D3D00E5FBF0 /* Info.plist */,
+			);
+			path = "Bible NavigatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C9FDE722935D3C00E5FBF0 /* Bible Navigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C9FE1722935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible Navigator" */;
+			buildPhases = (
+				53C9FDE422935D3C00E5FBF0 /* Sources */,
+				53C9FDE522935D3C00E5FBF0 /* Frameworks */,
+				53C9FDE622935D3C00E5FBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bible Navigator";
+			productName = "Bible Navigator";
+			productReference = 53C9FDE822935D3C00E5FBF0 /* Bible Navigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53C9FE0222935D3C00E5FBF0 /* Bible NavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C9FE1A22935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible NavigatorTests" */;
+			buildPhases = (
+				53C9FDFF22935D3C00E5FBF0 /* Sources */,
+				53C9FE0022935D3C00E5FBF0 /* Frameworks */,
+				53C9FE0122935D3C00E5FBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C9FE0522935D3D00E5FBF0 /* PBXTargetDependency */,
+			);
+			name = "Bible NavigatorTests";
+			productName = "Bible NavigatorTests";
+			productReference = 53C9FE0322935D3C00E5FBF0 /* Bible NavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53C9FE0D22935D3D00E5FBF0 /* Bible NavigatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C9FE1D22935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible NavigatorUITests" */;
+			buildPhases = (
+				53C9FE0A22935D3D00E5FBF0 /* Sources */,
+				53C9FE0B22935D3D00E5FBF0 /* Frameworks */,
+				53C9FE0C22935D3D00E5FBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C9FE1022935D3D00E5FBF0 /* PBXTargetDependency */,
+			);
+			name = "Bible NavigatorUITests";
+			productName = "Bible NavigatorUITests";
+			productReference = 53C9FE0E22935D3D00E5FBF0 /* Bible NavigatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C9FDE022935D3C00E5FBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bat-Erdene, Ene";
+				TargetAttributes = {
+					53C9FDE722935D3C00E5FBF0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					53C9FE0222935D3C00E5FBF0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 53C9FDE722935D3C00E5FBF0;
+					};
+					53C9FE0D22935D3D00E5FBF0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 53C9FDE722935D3C00E5FBF0;
+					};
+				};
+			};
+			buildConfigurationList = 53C9FDE322935D3C00E5FBF0 /* Build configuration list for PBXProject "Bible Navigator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C9FDDF22935D3C00E5FBF0;
+			productRefGroup = 53C9FDE922935D3C00E5FBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C9FDE722935D3C00E5FBF0 /* Bible Navigator */,
+				53C9FE0222935D3C00E5FBF0 /* Bible NavigatorTests */,
+				53C9FE0D22935D3D00E5FBF0 /* Bible NavigatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C9FDE622935D3C00E5FBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9FDFB22935D3C00E5FBF0 /* LaunchScreen.storyboard in Resources */,
+				53C9FDF822935D3C00E5FBF0 /* Assets.xcassets in Resources */,
+				53C9FDF622935D3C00E5FBF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FE0122935D3C00E5FBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FE0C22935D3D00E5FBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C9FDE422935D3C00E5FBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9FDF022935D3C00E5FBF0 /* MasterViewController.m in Sources */,
+				53C9FDED22935D3C00E5FBF0 /* AppDelegate.m in Sources */,
+				53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */,
+				53C9FDF322935D3C00E5FBF0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FDFF22935D3C00E5FBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9FE0822935D3D00E5FBF0 /* Bible_NavigatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9FE0A22935D3D00E5FBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9FE1322935D3D00E5FBF0 /* Bible_NavigatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C9FE0522935D3D00E5FBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C9FDE722935D3C00E5FBF0 /* Bible Navigator */;
+			targetProxy = 53C9FE0422935D3D00E5FBF0 /* PBXContainerItemProxy */;
+		};
+		53C9FE1022935D3D00E5FBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C9FDE722935D3C00E5FBF0 /* Bible Navigator */;
+			targetProxy = 53C9FE0F22935D3D00E5FBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C9FDF422935D3C00E5FBF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C9FDF522935D3C00E5FBF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53C9FDF922935D3C00E5FBF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C9FDFA22935D3C00E5FBF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C9FE1522935D3D00E5FBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53C9FE1622935D3D00E5FBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C9FE1822935D3D00E5FBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible Navigator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53C9FE1922935D3D00E5FBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible Navigator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53C9FE1B22935D3D00E5FBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible NavigatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible Navigator.app/Bible Navigator";
+			};
+			name = Debug;
+		};
+		53C9FE1C22935D3D00E5FBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible NavigatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible Navigator.app/Bible Navigator";
+			};
+			name = Release;
+		};
+		53C9FE1E22935D3D00E5FBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible NavigatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bible Navigator";
+			};
+			name = Debug;
+		};
+		53C9FE1F22935D3D00E5FBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "Bible NavigatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.Bible-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bible Navigator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C9FDE322935D3C00E5FBF0 /* Build configuration list for PBXProject "Bible Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9FE1522935D3D00E5FBF0 /* Debug */,
+				53C9FE1622935D3D00E5FBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C9FE1722935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9FE1822935D3D00E5FBF0 /* Debug */,
+				53C9FE1922935D3D00E5FBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C9FE1A22935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible NavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9FE1B22935D3D00E5FBF0 /* Debug */,
+				53C9FE1C22935D3D00E5FBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C9FE1D22935D3D00E5FBF0 /* Build configuration list for PBXNativeTarget "Bible NavigatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9FE1E22935D3D00E5FBF0 /* Debug */,
+				53C9FE1F22935D3D00E5FBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C9FDE022935D3C00E5FBF0 /* Project object */;
+}
