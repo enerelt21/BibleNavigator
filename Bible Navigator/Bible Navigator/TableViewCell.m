@@ -20,12 +20,6 @@
 
     // Configure the view for the selected state
 }
--(NSDictionary *) FileJSON
-{
-    //NSString * fileName = [[NSBundle mainBundle] pathForResource:@"BibleJson" oftype:@"json"];
-    
-    
-}
 -(void) pulling_Data
 {
     

@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TableViewCell : UITableViewCell
--(NSDictionary *) FileJSON;
+
 -(void) pulling_Data;
 
 @end

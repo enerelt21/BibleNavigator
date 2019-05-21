@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537DBBF1229471D80068376C /* BibleJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 537DBBF0229471D80068376C /* BibleJson.json */; };
+		537DBBF5229488940068376C /* Bible.m in Sources */ = {isa = PBXBuildFile; fileRef = 537DBBF4229488940068376C /* Bible.m */; };
 		53C9FDED22935D3C00E5FBF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */; };
 		53C9FDF022935D3C00E5FBF0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDEF22935D3C00E5FBF0 /* MasterViewController.m */; };
 		53C9FDF322935D3C00E5FBF0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */; };
@@ -16,8 +18,6 @@
 		53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FDFD22935D3C00E5FBF0 /* main.m */; };
 		53C9FE0822935D3D00E5FBF0 /* Bible_NavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */; };
 		53C9FE1322935D3D00E5FBF0 /* Bible_NavigatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */; };
-		53C9FE252293693A00E5FBF0 /* BibleJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 53C9FE242293693A00E5FBF0 /* BibleJson.json */; };
-		53C9FE3022936DCA00E5FBF0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		537DBBF0229471D80068376C /* BibleJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BibleJson.json; path = "/Users/enebat-erdene/Desktop/BibleNavigator/Bible Navigator/../../BibleJson.json"; sourceTree = "<absolute>"; };
+		537DBBF2229488540068376C /* Bible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bible.h; sourceTree = "<group>"; };
+		537DBBF4229488940068376C /* Bible.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible.m; sourceTree = "<group>"; };
 		53C9FDE822935D3C00E5FBF0 /* Bible Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Navigator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C9FDEB22935D3C00E5FBF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,16 +52,13 @@
 		53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53C9FDFA22935D3C00E5FBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53C9FDFC22935D3C00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53C9FDFD22935D3C00E5FBF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C9FDFD22935D3C00E5FBF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/enebat-erdene/Desktop/BibleNavigator/Bible Navigator/Bible Navigator/main.m"; sourceTree = "<absolute>"; };
 		53C9FE0322935D3C00E5FBF0 /* Bible NavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible NavigatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C9FE0722935D3D00E5FBF0 /* Bible_NavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_NavigatorTests.m; sourceTree = "<group>"; };
 		53C9FE0922935D3D00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53C9FE0E22935D3D00E5FBF0 /* Bible NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C9FE1222935D3D00E5FBF0 /* Bible_NavigatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_NavigatorUITests.m; sourceTree = "<group>"; };
 		53C9FE1422935D3D00E5FBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53C9FE242293693A00E5FBF0 /* BibleJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BibleJson.json; path = ../../../../Downloads/BibleJson.json; sourceTree = "<group>"; };
-		53C9FE2E22936DCA00E5FBF0 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +109,7 @@
 		53C9FDEA22935D3C00E5FBF0 /* Bible Navigator */ = {
 			isa = PBXGroup;
 			children = (
+				537DBBF0229471D80068376C /* BibleJson.json */,
 				53C9FDEB22935D3C00E5FBF0 /* AppDelegate.h */,
 				53C9FDEC22935D3C00E5FBF0 /* AppDelegate.m */,
 				53C9FDEE22935D3C00E5FBF0 /* MasterViewController.h */,
@@ -116,13 +117,12 @@
 				53C9FDF122935D3C00E5FBF0 /* DetailViewController.h */,
 				53C9FDF222935D3C00E5FBF0 /* DetailViewController.m */,
 				53C9FDF422935D3C00E5FBF0 /* Main.storyboard */,
-				53C9FE242293693A00E5FBF0 /* BibleJson.json */,
 				53C9FDF722935D3C00E5FBF0 /* Assets.xcassets */,
 				53C9FDF922935D3C00E5FBF0 /* LaunchScreen.storyboard */,
 				53C9FDFC22935D3C00E5FBF0 /* Info.plist */,
 				53C9FDFD22935D3C00E5FBF0 /* main.m */,
-				53C9FE2E22936DCA00E5FBF0 /* TableViewCell.h */,
-				53C9FE2F22936DCA00E5FBF0 /* TableViewCell.m */,
+				537DBBF4229488940068376C /* Bible.m */,
+				537DBBF2229488540068376C /* Bible.h */,
 			);
 			path = "Bible Navigator";
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			files = (
 				53C9FDFB22935D3C00E5FBF0 /* LaunchScreen.storyboard in Resources */,
 				53C9FDF822935D3C00E5FBF0 /* Assets.xcassets in Resources */,
-				53C9FE252293693A00E5FBF0 /* BibleJson.json in Resources */,
+				537DBBF1229471D80068376C /* BibleJson.json in Resources */,
 				53C9FDF622935D3C00E5FBF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +279,8 @@
 				53C9FDF022935D3C00E5FBF0 /* MasterViewController.m in Sources */,
 				53C9FDED22935D3C00E5FBF0 /* AppDelegate.m in Sources */,
 				53C9FDFE22935D3C00E5FBF0 /* main.m in Sources */,
-				53C9FE3022936DCA00E5FBF0 /* TableViewCell.m in Sources */,
 				53C9FDF322935D3C00E5FBF0 /* DetailViewController.m in Sources */,
+				537DBBF5229488940068376C /* Bible.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
